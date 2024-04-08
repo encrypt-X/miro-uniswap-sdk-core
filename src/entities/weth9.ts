@@ -22,5 +22,6 @@ export const WETH9: { [chainId: number]: Token } = {
   [56]: new Token(56, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
   [137]: new Token(137, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WMATIC', 'Wrapped MATIC'),
   [43114]: new Token(43114, '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7', 18, 'WAVAX', 'Wrapped AVAX'),
-  [1261120]: new Token(1261120, '0xEbB3F7644F5D523B4cA7F5d1C94ea023f1D9b066', 18, 'WETH', 'Wrapped Ether') // zkatana
+  [1261120]: new Token(1261120, '0xEbB3F7644F5D523B4cA7F5d1C94ea023f1D9b066', 18, 'WETH', 'Wrapped Ether'), // zkatana
+  [713715]: new Token(713715, '0xD2AAf6707a8c4700319d6f52A127d47e3bA12988', 18, 'WETH', 'Wrapped Ether') // SEIDEV
 }
