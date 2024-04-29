@@ -174,13 +174,13 @@ const ZKATANA_ADDRESSES: ChainAddresses = {
 }
 
 const SEIDEV_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x416c6Af9D19A9326389FEe432225b674452d6fa0',
-  multicallAddress: '0x7335ea8673786a4A9Bc65A14C68A83e41ddBA42a',
-  quoterAddress: '0x8aB38465dC02e6e9A35B9d54d624AD97f0003620',
-  v3MigratorAddress: '0x409Fd39F8F34c53fdA8F11e26DA6999f64673dAb',
-  nonfungiblePositionManagerAddress: '0x978570814f8D17Ea6500BE1b61af587dA1E66b6A',
-  tickLensAddress: '0xC971E049289cd18217eE033Ec425b8eA7f80c777',
-  swapRouter02Address: '0x67a3c70065cD32A997013123728eF6F1f2510cD3'
+  v3CoreFactoryAddress: '0xbE4ab781EC37AAd4c7B1bB2D7769f97ed715b8Fc',
+  multicallAddress: '0x00cAF03eA551bEBcc6B6ed0D84BD3D6eD794D9b8',
+  quoterAddress: '0x2cA01ee0ff89e6Bc84a0D1b60BbeCB7268dd429d',
+  v3MigratorAddress: '0x1879755e61e8B4F276cC805E5082242F652C2b9a',
+  nonfungiblePositionManagerAddress: '0xef671E3646b9661D98c8c0406dCfEB5184Ae3F2e',
+  tickLensAddress: '0x3F518A9E02fE9bab5144d8cD3e7c3Dcd3a4fbf14',
+  swapRouter02Address: '0x8F9910F03A5B875820D56c2067f5c7E5E2B06a6D'
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
